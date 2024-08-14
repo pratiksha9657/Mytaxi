@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quicktaxi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Ola Car Booking</h1>
+    </header>
+    
+    <div class="container">
+        <div class="map">
+            <div id="map"></div>
+        </div>
+        <div class="booking-form">
+            <div class="form-group">
+                <label for="pickup">Pickup Location</label>
+                <input type="text" id="pickup" placeholder="Enter your pickup location">
+            </div>
+            <div class="form-group">
+                <label for="drop">Drop Location</label>
+                <input type="text" id="drop" placeholder="Enter your drop location">
+            </div>
+            <div class="form-group">
+                <label for="car-type">Select Car</label>
+                <select id="car-type">
+                    <option value="mini">Mini</option>
+                    <option value="sedan">Sedan</option>
+                    <option value="suv">SUV</option>
+                </select>
+            </div>
+            <button id="book-now">Book Now</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
