@@ -21,7 +21,7 @@ body {
     background-color: rgba(255, 255, 255, 0.5); /* Set background to white with 50% transparency */
     padding: 30px;
     border-radius: 8px;
-    width: 350px;
+    width: 450px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds a shadow to enhance visibility */
 }
