@@ -64,17 +64,19 @@ button:hover {
 
 .ride-options, .payment-options {
     display: flex;
-    justify-content: space-evenly;
-    margin: 10px 0;
+    justify-content: space-evenly; /* Adjust to distribute options evenly */
+    align-items: center;
+    margin: 15px 0;
+    padding: 0 10px; /* Add padding to avoid the elements touching the edges */
 }
+
 
 .ride-options label, .payment-options label {
     font-size: 1rem;
     color: #333;
 }
-
 .bike-img {
-    width: 35px;
+    width: 35px; /* Reduced size for better fitting */
     height: 35px;
-    margin-left: 10px;
+    margin-left: 5px; /* Adjusted spacing */
 }
