@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-cabbookingservice-dev-ff2d7-authRole",
+      "UnauthRoleArn": "arn:aws:iam::022499041795:role/amplify-cabbookingservice-dev-ff2d7-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::022499041795:role/amplify-cabbookingservice-dev-ff2d7-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-cabbookingservice-dev-ff2d7-deployment",
+      "UnauthRoleName": "amplify-cabbookingservice-dev-ff2d7-unauthRole",
+      "StackName": "amplify-cabbookingservice-dev-ff2d7",
+      "StackId": "arn:aws:cloudformation:us-east-1:022499041795:stack/amplify-cabbookingservice-dev-ff2d7/6b94db50-5c63-11ef-9bce-0affe4d86cb3",
+      "AmplifyAppId": "d2wrh54tqd2zus"
+    },
+    "categories": {
+      "auth": {
+        "cabbookingservicef011cc49": {}
+      }
+    }
+  }
+}

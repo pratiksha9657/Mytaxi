@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cab Booking Service</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h1>Book Your Ride</h1>
+            <form>
+                <label for="pickup">Pickup Location</label>
+                <input type="text" id="pickup" name="pickup" placeholder="Enter pickup location" required>
+
+                <label for="drop">Drop Location</label>
+                <input type="text" id="drop" name="drop" placeholder="Enter drop location" required>
+
+                <label for="ride-option">Choose a Ride Option</label>
+                <div class="ride-options">
+                    <input type="radio" id="car" name="ride" value="Car" required>
+                    <label for="car">Car</label>
+                    <img src="car.jpg" alt="Bike" class="bike-img">
+                    
+                    <input type="radio" id="auto" name="ride" value="Auto">
+                    <label for="auto">Auto</label>
+                    <img src="Auto.jpg" alt="Bike" class="bike-img">
+                    
+                    <input type="radio" id="bike" name="ride" value="Bike">
+                    <label for="bike">Bike</label>
+                    <img src="bike.jpg" alt="Bike" class="bike-img">
+                </div>
+
+                <label for="payment-option">Payment Option</label>
+                <div class="payment-options">
+                    <input type="radio" id="cash" name="payment" value="Cash" required>
+                    <label for="cash">Cash</label>
+                    
+                    <input type="radio" id="online" name="payment" value="Online">
+                    <label for="online">Online</label>
+                </div>
+
+                <button type="button" onclick="redirectToLogin()">Book Now</button>
+            </form>
+        </div>
+    </div>
+    <script src=".js"></script>
+</body>
+</html>
